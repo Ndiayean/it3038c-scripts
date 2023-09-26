@@ -32,4 +32,6 @@ def getHostnameByIP(h):
 ## myGetIP.py would be sys.argv[0] and google.com would be sys.argv[1]
 
 ##Now we can call the from within the script and store those values in variables
+##The function we created above wont do anything unless its invoked in the script
+##Then the contents within the function will be executed based on the parameters we passed
 getHostnameByIP(sys.argv[1])
