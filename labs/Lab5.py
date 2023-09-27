@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-
+##Problem Number 2
 ##This script will take a word as input and could how many letters, how many vowels and how consonants are present
 
 
