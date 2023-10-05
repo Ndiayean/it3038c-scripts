@@ -30,17 +30,38 @@ done
 
 ##I am going to use the array to present the user with options using the : bbash select construct
 
+
+
 PS3="Enter a number: "
 
 select choice in "${choices[@]}";
 do 
 	echo "Selected password: $choice"
 	echo "Selected number: $REPLY"
+	selection="$choice"
 	break
 done
 
-##echo testing the array
+echo
 
-##fo i in "${choices[@]}" ; do echo "$i"; done
+echo password has bee successfully generated
+
+echo 
+
+echo would you like to save it to a file [yes/no]
+
+read answer
+
+if  [ "$answer" = "yes" ];
+then 
+	##will store the choice in a text file
+	echo $selection > userpassword.txt
+	echo your password has stored in userpassword.txt
+else
+	echo Password not stored, please remember it
+fi	
+
+##echo testing the array
+###for i in "${choices[@]}" ; do echo "$i"; done
 
 ##passwords successfully generated please click enter to view
