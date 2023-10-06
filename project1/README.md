@@ -16,6 +16,16 @@
 	```bash
 	./randpasswdgen.sh
 	```
-4. follow the prompts provided by the running script
+4. follow the prompts provided by the running script.
 
 
+
+==================
+
+####Sources
+1. [https://youtu.be/P5552IJp7tU?feature=shared] (https://youtu.be/P5552IJp7tU?feature=shared)
+2. [https://www.hostinger.com/tutorials/bash-array] (https://www.hostinger.com/tutorials/bash-array)
+
+3. [https://linuxize.com/post/bash-select/] (https://linuxize.com/post/bash-select/)
+
+==================
