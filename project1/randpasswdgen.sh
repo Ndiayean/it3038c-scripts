@@ -1,9 +1,10 @@
 #!/bin/bash
 
 
-## Random Password generator that asks user to choose a password length and select a password from a list of passwords.
+## Random Password generator that asks user to choose a password length and generate a list of passwords
+##The user will then select a password from a list of passwords.
 ## The password will then be stored in a text file
-## After a certain period of time the system will run the script and prompt the user to change their password
+
 
 ##welcomes the user to the application
 echo welcome to the bash password generator
@@ -29,9 +30,6 @@ do
 done
 
 ##I am going to use the array to present the user with options using the : bbash select construct
-
-
-
 PS3="Enter a number: "
 
 select choice in "${choices[@]}";
@@ -52,6 +50,8 @@ echo would you like to save it to a file [yes/no]
 
 read answer
 
+echo
+
 if  [ "$answer" = "yes" ];
 then 
 	##will store the choice in a text file
@@ -64,4 +64,4 @@ fi
 ##echo testing the array
 ###for i in "${choices[@]}" ; do echo "$i"; done
 
-##passwords successfully generated please click enter to view
+
