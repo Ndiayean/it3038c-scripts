@@ -88,4 +88,6 @@ userfilesdoc = open('Myfileslist' , 'w')
 
 user_documents_formated = '\n'.join(users_documents)
 
+
+##Adds the file names to the text file
 userfilesdoc.write(user_documents_formated)

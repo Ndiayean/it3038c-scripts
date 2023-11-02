@@ -7,7 +7,7 @@
 #### This app creates a directory and populates it with files. The script then searches for any files within the directory that contains the users name and displays it on screen and store it in a text file
 
 ### How to Use the app
-1. Download the ***filealanalyzer.py*** script and store it a folder of your choice
+1. On a Linux computer download the ***filealanalyzer.py*** script and store it a folder of your choice
 2. Navigate to the folder and give the file execute permissions
 	```bash
 	chmod +x fileanalyzer.py
