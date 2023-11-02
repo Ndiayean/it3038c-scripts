@@ -22,7 +22,9 @@
 
 4. follow the prompts provided by the running script.
 
-5. Try using your name then try using the following names: Andrew, Samantha, 
+5. Try using your name then try using the following names: Andrew, Samantha, Alex, and alex
+	
+	Note: The user alex will appear in 4 files, unless your name appears in all four files only three files would be outputed
 
 6. Navigate to the directory "/Testfiles"
 
@@ -31,10 +33,12 @@
 
 ==================
 
-####Sources
-1. [https://youtu.be/P5552IJp7tU?feature=shared] (https://youtu.be/P5552IJp7tU?feature=shared)
-2. [https://www.hostinger.com/tutorials/bash-array] (https://www.hostinger.com/tutorials/bash-array)
+#### Sources
+1. [https://www.pythontutorial.net/python-basics/python-write-text-file/] (https://www.pythontutorial.net/python-basics/python-write-text-file/)
+2. [https://www.geeksforgeeks.org/shutil-module-in-python/#] (https://www.geeksforgeeks.org/shutil-module-in-python/#)
 
-3. [https://linuxize.com/post/bash-select/] (https://linuxize.com/post/bash-select/)
+3. [https://www.geeksforgeeks.org/python-os-makedirs-method/] (https://www.geeksforgeeks.org/python-os-makedirs-method/)
+
+4. [https://stackoverflow.com/questions/34530237/find-files-in-a-directory-containing-desired-string-in-python] (https://stackoverflow.com/questions/34530237/find-files-in-a-directory-containing-desired-string-in-python)
 
 
