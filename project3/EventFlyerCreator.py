@@ -95,6 +95,7 @@ Available_Event_Images = ('sports', 'books', 'cars', 'theater')
 
 
 
+##Selecting the image based on the users choice for the event 
 Selected_Event_Image = get_choice(Available_Event_Images, 'Event Image')
 
 if Selected_Event_Image == 'sports':
@@ -115,6 +116,7 @@ document.add_heading(Event_Title, 0)
 Description = document.add_paragraph("Description: " + Event_Description)
 
 Times = document.add_paragraph("Time: ")
+##This will allow the text to be bold
 Times.add_run( Selected_Event_Time + " P.M").bold = True
 
 Location = document.add_paragraph("Location: ")
@@ -128,5 +130,5 @@ Image = document.add_picture(Event_image)
 
 document.save("EventFlyer.docx")
 
-
+##Tells the user where to find the Document
 print("Your flyer has been created, Please navigate to the folder containing the script")

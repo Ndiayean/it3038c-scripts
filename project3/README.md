@@ -21,8 +21,10 @@
 	 ```bash
 	 python3 -m venv venv
 	 ```
-	- To activate the venv use the command: . venv/bin/activate
-
+	- To activate the venv use the command:
+	```bash
+	 . venv/bin/activate
+	```
 4. In the bash terminal install the python library called docx
 	```bash
 	pip install python-docx
@@ -35,6 +37,7 @@
    or run the command
         ```python
         python3 EventFlyerCreator.py
+	```
 
 6. Follow the prompts provided by the running script.
 
@@ -45,10 +48,6 @@
 ==================
 
 #### Sources
-1. [https://www.pythontutorial.net/python-basics/python-write-text-file/] (https://www.pythontutorial.net/python-basics/python-write-text-file/)
-2. [https://www.geeksforgeeks.org/shutil-module-in-python/#] (https://www.geeksforgeeks.org/shutil-module-in-python/#)
-
-3. [https://www.geeksforgeeks.org/python-os-makedirs-method/] (https://www.geeksforgeeks.org/python-os-makedirs-method/)
-
-4. [https://stackoverflow.com/questions/34530237/find-files-in-a-directory-containing-desired-string-in-python] (https://stackoverflow.com/questions/34530237/find-files-in-a-directory-containing-desired-string-in-python)
+1. [https://python-docx.readthedocs.io/en/latest] (https://python-docx.readthedocs.io/en/latest/)
+2. [https://www.youtube.com/watch?v=ZBx7oWCJ4aY] (https://www.youtube.com/watch?v=ZBx7oWCJ4aY)
 
