@@ -35,7 +35,7 @@
         ./EventFlyerCreator.py
         ```
    or run the command
-        ```python
+        ```bash
         python3 EventFlyerCreator.py
 	```
 
